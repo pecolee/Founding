@@ -246,11 +246,11 @@
 	},
 	"sources": {
 		"contracts/Multi-signature wallet.sol": {
-			"keccak256": "0x7779edd7d13bdd880843be5827d3122bd09fff755d9bec23d015adb20e5b51d9",
+			"keccak256": "0x056da4ae4f1accfa4ece9001e6d6d79dcf05764e40045472cc8610a0028af410",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a97fde6c8a6a8b71b3daa3ee24dcae56b0916c33f23a25184e65247536c37c3",
-				"dweb:/ipfs/QmaC2b2g4KXLgpvLdDKK9wZg6wK7DJ1hVgM2F9qNTZreJo"
+				"bzz-raw://21a5569a5f532de8f50eb4c155015d7eab778206512965add531593e4885f07c",
+				"dweb:/ipfs/Qmatoy1SoCkZp3ybH1jCoPvVLLwWEDrkbRpwMBmxthvakG"
 			]
 		}
 	},

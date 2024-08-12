@@ -29,6 +29,8 @@ contract MultiWallet {
             address owner = _owners[i];
             require(owner != address(0),"wrong address");
             require(!isOwner[owner],"owner is not unique");
+            isOwner[owner] = true;
+            owners.push(owner);
         }
         required=_required;
     }

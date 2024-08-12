@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Multi-signature wallet.sol": "Multi"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Multi-signature wallet.sol": {
+			"keccak256": "0xefa58f4dd614cffac18dded2ada9915984d834243d02cdf8c29e6223740e89cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3636bb0020dfb7c507437644c180a4ade7961a69ef9b67fc59cb199edd9d485",
+				"dweb:/ipfs/QmQRtMB8ofKSaBojuvDcQPgkiZrzyCWXh6bwz3rzTQaumr"
+			]
+		}
+	},
+	"version": 1
+}

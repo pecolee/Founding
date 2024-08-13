@@ -108,6 +108,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					},
@@ -123,6 +136,51 @@
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "excute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "getSigCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "count",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -177,6 +235,48 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "revoke",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "submit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -246,11 +346,11 @@
 	},
 	"sources": {
 		"contracts/Multi-signature wallet.sol": {
-			"keccak256": "0x056da4ae4f1accfa4ece9001e6d6d79dcf05764e40045472cc8610a0028af410",
+			"keccak256": "0x283077646af943f40a41350b9fd7f63d1f9dc629732c4fb88a18b191d2f96c54",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://21a5569a5f532de8f50eb4c155015d7eab778206512965add531593e4885f07c",
-				"dweb:/ipfs/Qmatoy1SoCkZp3ybH1jCoPvVLLwWEDrkbRpwMBmxthvakG"
+				"bzz-raw://ba2f4a987480697cc02019278872e26f01c0a2e92ec758c69bad202cfa0af71b",
+				"dweb:/ipfs/Qmab7tePAZ6joRxJSyVj6jAx3GSJ4i6AguZp5mw4abunF5"
 			]
 		}
 	},
